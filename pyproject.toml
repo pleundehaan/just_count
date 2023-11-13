@@ -8,9 +8,10 @@ packages = [{include = "just_count", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+square = "^0.0.3"
 
 [tool.poetry.scripts]
-naam_commando = "package.module:naam_functie"
+count = "just_count.count_count:main"
 
 [build-system]
 requires = ["poetry-core"]
