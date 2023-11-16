@@ -9,6 +9,7 @@ packages = [{include = "just_count", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 square = "^0.0.3"
+click = "^8.1.7"
 
 [tool.poetry.scripts]
 count = "just_count.count_count:main"
